@@ -7,3 +7,103 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 25rem);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container{
+    text-align: center;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 1px 5px 15px 5px rgba(0, 0, 0, 0.09785);
+    border-radius: 4px;
+}
+
+.img-container{
+    background-image: url('/images/venson-chou-nD2BjSLt0uE-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+}
+
+.profile{
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    transform: translateY(6rem) translateX(1.5rem);
+}
+
+.profile img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+
+.info-container{
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.info-container > *{
+    margin: 2rem 0;
+}
+
+.heading h3{
+    margin-left: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.destination{
+    text-transform: capitalize;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn{
+    background-color: none;
+    border: 1px solid #37E2D5;
+    text-decoration: none;
+    color: #14C38E;
+    padding: 0.5rem 1rem;
+}
+
+
+.btn{
+    text-decoration: none;
+    background-color: #37E2D5;
+    color: #fff;
+    padding: 0.5rem 1rem;
+}
+
+.social-icons ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.social-icons ul li{
+    margin: 0 0.75rem;
+}
+
+.social-icons ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    transition: all 0.3s linear;
+}
+
+.social-icons ul li a:hover{
+    color: #14C38E;
+}
